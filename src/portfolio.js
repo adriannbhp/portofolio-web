@@ -124,8 +124,7 @@ const educationInfo = {
       duration: "September 2021 - Now",
       desc: "Currently  6th semester student ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Relevant Coursework : Software Engineering, Object Oriented Programming, Microservice, Database, Algorithm",
       ]
     }
     //,
@@ -158,7 +157,7 @@ const techStack = {
       progressPercentage: "50%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -171,18 +170,19 @@ const workExperiences = {
       company: "Quora",
       companylogo: require("./assets/images/bangkit.png"),
       date: "November 2023 – January 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Develop Back-End and Architecture Apps",
+      descBullets: [
+        "As a member of the Cloud Computing Cohort, I spearheaded various backend and infrastructure tasks, focusing on developing robust solutions for predictive dyslexia analysis. I engineered a RESTful API leveraging cutting-edge technologies to facilitate dyslexia prediction seamlessly. Additionally, I meticulously crafted comprehensive API documentation using Swagger and PostmanAPI, ensuring clarity and ease of integration for stakeholders.",
+        "Utilizing Firebase, I orchestrated the development of a scalable service to enhance the efficiency and accessibility of dyslexia prediction. Furthermore, I architected a robust database system adept at storing and managing prediction results securely.",
+        "To streamline deployment processes, I constructed a Dockerfile and proficiently built Docker images, optimizing deployment efficiency. Finally, I orchestrated the deployment of dyslexia prediction services using Cloud Run, ensuring seamless scalability and reliability in a cloud-native environment."
+      ]
     },
     {
       role: "Cohort Cloud Computing Learning Path Batch 2",
       company: "Bangkit Academy",
       companylogo: require("./assets/images/bangkit.png"),
       date: "August 2023 – February 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Team CH2-PS100 made it into the top 50 out of 638 Projects in Bangkit Batch 2. The topic was Human Health Care and Living Wellbeings with the title Dyslexia Scanner-Scan Tulisan Tangan Untuk Deteksi Dyslexia.",
     }
   ]
 };
