@@ -23,7 +23,7 @@ const greeting = {
   username: "Adrian Bimo Hernawan Pratama",
   title: "Hi all, I'm Adrian",
   subTitle: emoji(
-    "A passionate Back-End Software Developer 🚀 having an experience of building Web API with NodeJs / Go-Lang / Spring-Boot."
+    "A passionate Back-End Software Developer 🚀 having an experience of building Web API with NodeJs / Go-Lang / Python / Spring-Boot."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
