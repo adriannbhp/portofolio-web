@@ -173,7 +173,9 @@ const workExperiences = {
       desc: "Develop Back-End and Architecture Apps",
       descBullets: [
         "As a member of the Cloud Computing Cohort, I spearheaded various backend and infrastructure tasks, focusing on developing robust solutions for predictive dyslexia analysis. I engineered a RESTful API leveraging cutting-edge technologies to facilitate dyslexia prediction seamlessly. Additionally, I meticulously crafted comprehensive API documentation using Swagger and PostmanAPI, ensuring clarity and ease of integration for stakeholders.",
+        
         "Utilizing Firebase, I orchestrated the development of a scalable service to enhance the efficiency and accessibility of dyslexia prediction. Furthermore, I architected a robust database system adept at storing and managing prediction results securely.",
+        
         "To streamline deployment processes, I constructed a Dockerfile and proficiently built Docker images, optimizing deployment efficiency. Finally, I orchestrated the deployment of dyslexia prediction services using Cloud Run, ensuring seamless scalability and reliability in a cloud-native environment."
       ]
     },
@@ -191,7 +193,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -269,7 +271,7 @@ const achievementSection = {
       title: "Top 50 Product Based Capstone ",
       subtitle: "Top 50 Product Based Capstone out of a total of 638 products at Capstone Project Bangkit Academy Batch 2 2023",
       image: require("./assets/images/bangkit.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Top 50",
       footerLink: [
         {name: "Certification", url: "https://www.linkedin.com/in/adrianbhp/overlay/experience/2213589950/multiple-media-viewer/?profileId=ACoAADg_Cb8BkdCUZuRRUGxUabNklhJ4gfQDfTU&treasuryMediaId=1707222654606"},
         {
@@ -344,7 +346,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
